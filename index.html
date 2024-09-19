@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">My Portfolio</a>
+        <button class="toggle-btn" aria-label="Toggle Navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#introduction">Home</a></li>
+          <li><a href="#main-project">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Introduction Section -->
+  <section id="introduction">
+    <div class="intro-content" data-aos="fade-up">
+      <h2>Hello, I'm Simran Sharma</h2>
+      <p>Welcome to my portfolio! I'm a passionate web developer with a love for creating dynamic, user-centric web applications. My expertise spans front-end and back-end development.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section with Icons -->
+  <section id="skills">
+    <h2 data-aos="fade-up">My Skills</h2>
+    <div class="skills-grid" data-aos="fade-up" data-aos-delay="200">
+      <div class="skill-item">
+        <i class="fab fa-html5"></i>
+        <p>HTML5</p>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-css3-alt"></i>
+        <p>CSS3</p>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-js"></i>
+        <p>JavaScript</p>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-react"></i>
+        <p>React</p>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-node"></i>
+        <p>Node.js</p>
+      </div>
+      <div class="skill-item">
+        <i class="fas fa-database"></i>
+        <p>MongoDB</p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Main Project Section -->
+<section id="main-project">
+  <h2 data-aos="fade-right">Main Project</h2>
+  <div class="project-details" data-aos="zoom-in">
+    <h3>Room Rental Website (MERN)</h3>
+    <p>A full-stack application for listing and renting rooms, built using MongoDB, Express, React, and Node.js. The application offers a responsive, user-friendly interface with features like room filtering and user authentication.</p>
+    
+    <!-- Screenshot 1 -->
+    <div class="screenshot-section" data-aos="zoom-in" data-aos-delay="100">
+      <img src="image1.PNG" alt="Landing page screenshot" class="screenshot">
+      <p><strong>Landing Page:</strong> A clean and intuitive landing page where users can search for available rooms or register/login to manage their listings.</p>
+    </div>
+
+    <!-- Screenshot 2 -->
+    <div class="screenshot-section" data-aos="zoom-in" data-aos-delay="200">
+      <img src="details.PNG" alt="Room listing screenshot" class="screenshot">
+      <p><strong>Room Listing Page:</strong> Displays available rooms with detailed information, allowing users to filter based on room type, price range, and location.</p>
+    </div>
+
+    <!-- Screenshot 3 -->
+    <div class="screenshot-section" data-aos="zoom-in" data-aos-delay="300">
+      <img src="img3.PNG" alt="Type page screenshot" class="screenshot">
+      <p><strong>Room Types:</strong> A page showing different room types (e.g., single, double, luxury) with associated features and pricing options.</p>
+    </div>
+    
+    <p><strong>Technologies Used:</strong> MongoDB, Express, React, Node.js</p>
+    <ul data-aos="zoom-in" data-aos-delay="400">
+      <li>User authentication and registration</li>
+      <li>Room listing and filtering</li>
+      <li>Responsive and user-friendly interface</li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- Other Projects Section -->
+  <section id="minor-projects">
+    <h2 data-aos="fade-right">Other Projects</h2>
+    <div class="project-list">
+      
+      <!-- Login Page Design -->
+      <div class="project" data-aos="zoom-in">
+        <h3>Login Page Design</h3>
+        <p>A clean and modern login page with a professional design using HTML, CSS, and JavaScript.</p>
+        <img src="logpp.PNG" alt="Login page screenshot" class="screenshot">
+      </div>
+      
+      <!-- Signup Page Design -->
+      <div class="project" data-aos="zoom-in" data-aos-delay="200">
+        <h3>Signup Page Design</h3>
+        <p>A user-friendly and responsive signup page with form validation.</p>
+        <img src="regpp.PNG" alt="Signup page screenshot" class="screenshot">
+      </div>
+      
+      <!-- Coming Soon Page -->
+      <div class="project" data-aos="zoom-in" data-aos-delay="400">
+        <h3>Coming Soon Page</h3>
+        <p>A simple, responsive "Coming Soon" page built with HTML, CSS, and JavaScript.</p>
+        <img src="countt.PNG" alt="Coming Soon page screenshot" class="screenshot">
+      </div>
+      
+      <!-- Simple Landing Page -->
+      <div class="project" data-aos="zoom-in" data-aos-delay="600">
+        <h3>Simple Landing Page</h3>
+        <p>A clean and modern landing page designed using HTML and CSS.</p>
+        <img src="myport.PNG" alt="Landing page screenshot" class="screenshot">
+      </div>
+    </div>
+  </section>
+  <div class="contact-form-container" id="contact">
+    <h2 data-aos="fade-right">Contact Us</h2>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScSvlbS7PFvD1hZyDCJxY9EtbnAq7GKILwH52Y1GnifJn7Kxg/viewform?embedded=true" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 My Web Development Portfolio</p>
+  </footer>
+
+  <!-- AOS Library -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    document.addEventListener('DOMContentLoaded', () => {
+  const toggleBtn = document.querySelector('.toggle-btn');
+  const navLinks = document.querySelector('.nav-links');
+
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+});
+
+  </script>
+</body>
+</html>
